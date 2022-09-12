@@ -32,5 +32,6 @@ func main() {
 	// basic.String()
 	// basic.StrConv()
 	// basic.SortThis()
-	basic.Time()
+	// basic.Time()
+	basic.Reflect()
 }
