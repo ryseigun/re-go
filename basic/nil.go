@@ -2,7 +2,7 @@ package basic
 
 import "fmt"
 
-// Every variable has defaut value, ie: int with 0 and string with "
+// Every variable has defaut value, ie: int with 0 and string with ""
 // nil is and empty value or placeholder for empty map, interface, function, slice
 // pointer, channel
 func NewMap(name string) map[string]string {

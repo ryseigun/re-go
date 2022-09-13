@@ -2,10 +2,8 @@ package basic
 
 import "fmt"
 
-// Inteface kosong adalah interface yang tidak memiliki deklarasi method satupun
-// secara otomatis semua tipe data akan menjadi implementasinya
-
-// Fungsi yang dapat mengembalikan tipe data apa saja.
+// The interface type that specifies zero methods
+// Empty interfaces are used by code that handles values of unknown type
 func Ups(i int) interface{} {
 	if i == 1 {
 		return 2

@@ -29,7 +29,7 @@ func Struct() {
 	}
 	fmt.Println(revice)
 
-	// Make the struct 3 -> Rentan error
+	// Make the struct 3 -> Likely to cause error
 	double := KamenRider{"Kamen Rider W", "Double Driver", 2010}
 	fmt.Println(double)
 
